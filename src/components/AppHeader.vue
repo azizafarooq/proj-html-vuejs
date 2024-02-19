@@ -55,20 +55,28 @@ export default {
         <!--Banner-->
         <div class="banner">
             <h1>NO PAIN NO GAIN</h1>
-            <p class="mt-3">Motivation is what gets you started. Habit is what keeps you going.</p>
+            <p class="pt-6">Motivation is what gets you started. Habit is what keeps you going.</p>
             <button class="mt-3">Join us today</button>
         </div>
-
-
-
     </header>
+
+    <!--Jumbotron-->
+    <div class="jumbotron">
+        <h1>WORLD CLASS Fitness</h1>
+        <font-awesome-icon class="xmark" v-for="xmark in 2" :icon="['fas', 'xmark']" style="color: #ee6059;" />
+        <p>At Avada Gym, everything we do from top to bottom is of the highest quality to ensure we're equipped
+            to help
+            you to reach reach your your goals of a healthy and fit lifestyle. </p>
+        <font-awesome-icon class="sortDown" :icon="['fas', 'sort-down']" style="color: #25292b;" />
+    </div>
+
+    <!--Inserire freccetta verso il basso-->
 </template>
 
 <style lang="scss" scoped>
 header {
     padding: 2.5rem;
     padding-bottom: 300px;
-    font-family: "Montserrat", sans-serif;
     background-image: url('/Images/home-banner.jpg');
     background-size: cover;
 
@@ -116,5 +124,38 @@ header {
             padding: 5px 20px;
         }
     }
+}
+
+.jumbotron {
+    background-color: hsl(200deg 7.5% 15.69%);
+    color: white;
+    text-align: center;
+    padding: 100px 150px;
+    position: relative;
+
+    h1 {
+        font-weight: bolder;
+
+    }
+
+    p {
+        font-weight: lighter;
+        font-size: 1.5rem;
+
+    }
+
+    .xmark {
+        font-size: 2rem;
+        padding: 3rem 0.3rem;
+    }
+
+    .sortDown {
+        font-size: 9rem;
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
 }
 </style>
