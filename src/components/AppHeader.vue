@@ -42,21 +42,31 @@ export default {
 
 <template>
     <header>
-        <!--Logo-->
-        <img src="../assets/Images/gym_logo_1x.png" alt="">
+        <div class="container">
+            <!--Logo-->
+            <img src="/Images/gym_logo_1x.png" alt="">
 
-        <!--Menù dinamico-->
-        <ul>
-            <li v-for="link in links">{{ link.text }}</li>
-        </ul>
+            <!--Menù dinamico-->
+            <ul>
+                <li v-for="link in links">{{ link.text }}</li>
+            </ul>
+        </div>
+
     </header>
 </template>
 
 <style lang="scss" scoped>
 //Sistemare css
 header {
-    display: flex;
-    justify-content: space-between;
+    background-color: #1E2123;
+    padding: 3rem;
+
+    .container {
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     ul {
         display: flex;
