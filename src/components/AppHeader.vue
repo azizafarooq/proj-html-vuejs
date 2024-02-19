@@ -69,8 +69,6 @@ export default {
             you to reach reach your your goals of a healthy and fit lifestyle. </p>
         <font-awesome-icon class="sortDown" :icon="['fas', 'sort-down']" style="color: #25292b;" />
     </div>
-
-    <!--Inserire freccetta verso il basso-->
 </template>
 
 <style lang="scss" scoped>
@@ -140,7 +138,7 @@ header {
 
     p {
         font-weight: lighter;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
 
     }
 
