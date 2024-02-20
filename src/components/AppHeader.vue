@@ -62,9 +62,10 @@ export default {
 
     <!--Jumbotron-->
     <div class="jumbotron">
-        <h1>WORLD CLASS Fitness</h1>
+        <p class="main-title">WORLD CLASS Fitness</p>
         <font-awesome-icon class="xmark" v-for="xmark in 2" :icon="['fas', 'xmark']" style="color: #ee6059;" />
-        <p>At Avada Gym, everything we do from top to bottom is of the highest quality to ensure we're equipped
+        <p class="description">At Avada Gym, everything we do from top to bottom is of the highest quality to ensure we're
+            equipped
             to help
             you to reach reach your your goals of a healthy and fit lifestyle. </p>
         <font-awesome-icon class="sortDown" :icon="['fas', 'sort-down']" style="color: #25292b;" />
@@ -131,19 +132,7 @@ header {
     padding: 100px 150px;
     position: relative;
 
-    h1 {
-        font-weight: bolder;
-
-    }
-
-    p {
-        font-weight: lighter;
-        font-size: 1.3rem;
-
-    }
-
     .xmark {
-        font-size: 2rem;
         padding: 3rem 0.3rem;
     }
 
