@@ -4,6 +4,7 @@ import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppSignup from './components/AppSignup.vue';
 import AppIcons from './components/AppIcons.vue';
+import AppCards from './components/AppCards.vue';
 
 export default {
   data() {
@@ -11,7 +12,7 @@ export default {
     }
   },
 
-  components: { AppHeader, AppSignup, AppIcons, AppMain, AppFooter }
+  components: { AppHeader, AppSignup, AppIcons, AppCards, AppMain, AppFooter }
 }
 </script>
 
@@ -19,6 +20,7 @@ export default {
   <AppHeader></AppHeader>
   <AppSignup></AppSignup>
   <AppIcons></AppIcons>
+  <AppCards></AppCards>
   <AppMain></AppMain>
   <AppFooter></AppFooter>
 </template>

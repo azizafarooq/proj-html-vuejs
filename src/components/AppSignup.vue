@@ -3,7 +3,7 @@
 <template>
     <section>
         <div class="container">
-            <img src="/Images/home_img-compressor.jpg" alt="">
+            <img src="/images/home_img-compressor.jpg" alt="">
             <div class="signUp">
                 <h4>Sign Up For A Free Training Session!</h4>
                 <!--Inserire il v-model-->
@@ -34,6 +34,7 @@ section {
         justify-content: center;
         align-items: center;
         gap: 20px;
+
 
         img,
         .signUp {

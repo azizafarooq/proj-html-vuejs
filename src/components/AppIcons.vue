@@ -31,6 +31,7 @@ export default {
 </script>
 <template>
     <section>
+        <!-- Icone dinamiche-->
         <div class="items" v-for="item in  items ">
             <font-awesome-icon class="icons" :icon="['fas', item.icon]" style="color: #ee6059;" />
             <p class="title">{{ item.title }}</p>

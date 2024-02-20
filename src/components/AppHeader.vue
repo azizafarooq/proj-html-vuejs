@@ -44,7 +44,7 @@ export default {
     <header>
         <div class="container">
             <!--Logo-->
-            <img src="/Images/gym_logo_1x.png" alt="">
+            <img src="/images/gym_logo_1x.png" alt="">
 
             <!--Menù dinamico-->
             <ul>
@@ -63,8 +63,8 @@ export default {
     <!--Jumbotron-->
     <div class="jumbotron">
         <p class="main-title">WORLD CLASS Fitness</p>
-        <font-awesome-icon class="xmark" v-for="xmark in 2" :icon="['fas', 'xmark']" style="color: #ee6059;" />
-        <p class="description">At Avada Gym, everything we do from top to bottom is of the highest quality to ensure we're
+        <font-awesome-icon class="xmark-combo" v-for="xmark in 2" :icon="['fas', 'xmark']" style="color: #ee6059;" />
+        <p class="descriptions">At Avada Gym, everything we do from top to bottom is of the highest quality to ensure we're
             equipped
             to help
             you to reach reach your your goals of a healthy and fit lifestyle. </p>
@@ -76,7 +76,7 @@ export default {
 header {
     padding: 2.5rem;
     padding-bottom: 300px;
-    background-image: url('/Images/home-banner.jpg');
+    background-image: url('/images/home-banner.jpg');
     background-size: cover;
 
     img {
@@ -131,10 +131,6 @@ header {
     text-align: center;
     padding: 100px 150px;
     position: relative;
-
-    .xmark {
-        padding: 3rem 0.3rem;
-    }
 
     .sortDown {
         font-size: 9rem;
