@@ -10,8 +10,9 @@ import { faLinkSlash } from '@fortawesome/free-solid-svg-icons';
 import { faBicycle } from '@fortawesome/free-solid-svg-icons';
 import { faCloud } from '@fortawesome/free-solid-svg-icons';
 import { faHeartPulse } from '@fortawesome/free-solid-svg-icons';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faXmark, faSortDown, faLinkSlash, faBicycle, faCloud, faHeartPulse);
+library.add(faXmark, faSortDown, faLinkSlash, faBicycle, faCloud, faHeartPulse, faCircle);
 
 const app = createApp(App);
 app.component('font-awesome-icon', FontAwesomeIcon);
