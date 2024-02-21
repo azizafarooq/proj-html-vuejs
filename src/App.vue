@@ -1,4 +1,5 @@
 <script>
+import { store } from './store';
 import AppHeader from './components/AppHeader.vue';
 import AppTrainers from './components/AppTrainers.vue';
 import AppFooter from './components/AppFooter.vue';
@@ -7,14 +8,16 @@ import AppIcons from './components/AppIcons.vue';
 import AppTestimonials from './components/AppTestimonials.vue';
 import AppNews from './components/AppNews.vue';
 import AppLinks from './components/AppLinks.vue';
+import AppModal from './components/AppModal.vue';
 
 export default {
   data() {
     return {
+      store,
     }
   },
 
-  components: { AppHeader, AppSignup, AppIcons, AppTestimonials, AppTrainers, AppNews, AppFooter, AppLinks }
+  components: { AppHeader, AppSignup, AppIcons, AppTestimonials, AppTrainers, AppNews, AppFooter, AppLinks, AppModal }
 }
 </script>
 
@@ -24,6 +27,7 @@ export default {
   <AppIcons></AppIcons>
   <AppTestimonials></AppTestimonials>
   <AppTrainers></AppTrainers>
+  <AppModal v-if="store.modal.show"></AppModal>
   <AppNews></AppNews>
   <AppFooter> </AppFooter>
   <AppLinks></AppLinks>

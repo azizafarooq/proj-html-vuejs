@@ -1,7 +1,14 @@
 <script>
+import { store } from '../store';
+
 export default {
     data() {
-        return {
+        store
+    },
+
+    methods: {
+        handleCardOpen() {
+            store.modal.show = true
         }
     }
 }
@@ -44,17 +51,17 @@ export default {
         </div>
 
 
-        <!--Inserire dinamicamente e fare il modale-->
+        <!--Inserire dinamicamente e fare la modale-->
         <div class="images-links">
             <p class="main-title"> HIGH PERFOMANCE FACILITIES</p>
             <font-awesome-icon class="xmark-combo" v-for="xmark in 2" :icon="['fas', 'xmark']" style="color: #ee6059;" />
             <div class="images">
-                <img src="/images/home-image1.jpg" alt="">
-                <img src="/images/home-image2.jpg" alt="">
-                <img src="/images/home-image3.jpg" alt="">
-                <img src="/images/home-image4.jpg" alt="">
-                <img src="/images/home-image54.jpg" alt="">
-                <img src="/images/home-image6.jpg" alt="">
+                <img src="/images/home-image1.jpg" @click="handleCardOpen()" alt="">
+                <img src="/images/home-image2.jpg" @click="handleCardOpen()">
+                <img src="/images/home-image3.jpg" @click="handleCardOpen()">
+                <img src="/images/home-image4.jpg" @click="handleCardOpen()">
+                <img src="/images/home-image54.jpg" @click="handleCardOpen()">
+                <img src="/images/home-image6.jpg" @click="handleCardOpen()">
             </div>
         </div>
     </section>
