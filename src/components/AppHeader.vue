@@ -56,7 +56,7 @@ export default {
         <div class="banner">
             <h1>NO PAIN NO GAIN</h1>
             <p class="pt-6">Motivation is what gets you started. Habit is what keeps you going.</p>
-            <button class="mt-3">Join us today</button>
+            <button>Join us today</button>
         </div>
     </header>
 
@@ -113,15 +113,13 @@ header {
 
         p {
             font-weight: lighter;
+
         }
 
         button {
-            background-color: transparent;
-            color: white;
-            border: 0.5px solid #EBEAEA;
-            font-weight: lighter;
-            padding: 5px 20px;
+            margin-top: 1rem;
         }
+
     }
 }
 

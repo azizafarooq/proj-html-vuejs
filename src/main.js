@@ -10,9 +10,11 @@ import { faLinkSlash } from '@fortawesome/free-solid-svg-icons';
 import { faBicycle } from '@fortawesome/free-solid-svg-icons';
 import { faCloud } from '@fortawesome/free-solid-svg-icons';
 import { faHeartPulse } from '@fortawesome/free-solid-svg-icons';
-import { faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faXmark, faSortDown, faLinkSlash, faBicycle, faCloud, faHeartPulse, faCircle);
+library.add(faXmark, faSortDown, faLinkSlash, faBicycle, faCloud, faHeartPulse, faFacebookF, faTwitter, faInstagram);
 
 const app = createApp(App);
 app.component('font-awesome-icon', FontAwesomeIcon);
