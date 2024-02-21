@@ -92,7 +92,6 @@ section {
             height: fit-content;
             background-color: #1F2123;
             color: white;
-            align-items: flex-start;
 
             .card-body {
                 color: white;

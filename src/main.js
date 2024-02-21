@@ -13,8 +13,9 @@ import { faHeartPulse } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faXmark, faSortDown, faLinkSlash, faBicycle, faCloud, faHeartPulse, faFacebookF, faTwitter, faInstagram);
+library.add(faXmark, faSortDown, faLinkSlash, faBicycle, faCloud, faHeartPulse, faFacebookF, faTwitter, faInstagram, faAngleRight);
 
 const app = createApp(App);
 app.component('font-awesome-icon', FontAwesomeIcon);
