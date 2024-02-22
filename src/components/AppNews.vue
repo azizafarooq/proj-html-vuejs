@@ -5,7 +5,7 @@
 
         <div class="cards">
             <div class="card">
-                <img class="card-img-top" src="/images/blog1.jpg" alt="Card image cap">
+                <img class="card-img-top" src="/images/blog1-800x415.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Train with free weights or your bodyweight?</h5>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor,
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="/images/blog6-600x600.jpg" alt="Card image cap">
+                <img class="card-img-top" src="/images/blog6-400x400.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Nutritional advice that will keep you training</h5>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor,
@@ -89,7 +89,6 @@ section {
 
         .card {
             width: calc((100% - 200px - 30px) / 3);
-            height: fit-content;
             background-color: #1F2123;
             color: white;
 

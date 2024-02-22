@@ -72,7 +72,6 @@ export default {
             kick 10,000 times.""</p>
         <div class="credit">
             <p class="author">BRUCE LEE </p>
-            <!--<font-awesome-icon class="circle" :icon="['fas', 'circle']" />-->
             <p class="author">- QUOTE OF THE DAY </p>
         </div>
 

@@ -27,10 +27,10 @@ export default {
   <AppIcons></AppIcons>
   <AppTestimonials></AppTestimonials>
   <AppTrainers></AppTrainers>
-  <AppModal v-if="store.modal.show"></AppModal>
   <AppNews></AppNews>
   <AppFooter> </AppFooter>
   <AppLinks></AppLinks>
+  <AppModal v-if="store.modal.show"></AppModal>
 </template>
 
 <style lang="scss">

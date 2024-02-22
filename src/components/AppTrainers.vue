@@ -30,7 +30,7 @@ export default {
             <div class="card">
                 <img class="card-img-top" src="/images/trainer3-400x297.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Anne Waren</h5>
                     <h5 class="card-title">Personal Trainer</h5>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor,
                         lorem ipsum dolor sit amet.</p>
@@ -44,7 +44,7 @@ export default {
             <div class="card">
                 <img class="card-img-top" src="/images/trainer4-400x297.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Peter Rice</h5>
                     <h5 class="card-title">Personal Trainer</h5>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor,
                         lorem ipsum dolor sit amet.</p>
